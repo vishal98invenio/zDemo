@@ -6,10 +6,11 @@
 					<content>
 						<f:SimpleForm editable="true">
 						<Label text ="First Name"></Label>
-						<Input placeholder="First Name"></Input>
+						<Input palceholder = "First Name"></Input>
 						<Label text = "Last Name"></Label>
-					
+						<Input palceholde = "Last Name"></Input>
 						</f:SimpleForm>
+						
 					</content>
 				</Page>
 			</pages>
