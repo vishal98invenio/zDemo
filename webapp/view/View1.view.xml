@@ -7,6 +7,7 @@
 						<f:SimpleForm editable="true">
 						<Label text ="First Name"></Label>
 						<Input placeholder="First Name"></Input>
+						<Label text = "Last Name"></Label>
 					
 						</f:SimpleForm>
 					</content>
