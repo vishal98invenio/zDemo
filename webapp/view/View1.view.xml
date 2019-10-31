@@ -4,7 +4,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-						
+						<Label text ="First Name"></Label>
 						//Hey this is a new project
 						
 					</content>
