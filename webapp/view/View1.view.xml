@@ -1,12 +1,14 @@
-<mvc:View controllerName="Demo.zDemo.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View controllerName="Demo.zDemo.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-						
-						//Hey this is a new project
-						
+						<f:SimpleForm editable="true">
+						<Label text ="First Name"></Label>
+						<Input placeholder="First Name"></Input>
+					
+						</f:SimpleForm>
 					</content>
 				</Page>
 			</pages>
